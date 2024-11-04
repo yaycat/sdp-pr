@@ -16,6 +16,7 @@ public class ChatController {
         view.showLoginPrompt();
         Scanner scanner = new Scanner(System.in);
 
+        System.out.print("Welcome to chat! Enter username and password (or exit to quit) \n");
         System.out.print("Username: ");
         String username = scanner.nextLine();
         System.out.print("Password: ");
