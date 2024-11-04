@@ -2,12 +2,12 @@
 public class MessageFactory {
     public static Message createMessage(String type, String user, String content) {
         switch (type) {
-            case "user1":
-                return new UserMessage("-", content);
-            case "user2":
-                return new UserMessage("--", content);
-            case "user3":
-                return new UserMessage("---", content);
+            case "Nurda":
+                return new UserMessage("Nurda: ", content);
+            case "Alimzh":
+                return new UserMessage("Alimzh: ", content);
+            case "Kadyr":
+                return new UserMessage("Kadyr: ", content);
             default:
                 return new SystemMessage(content);
         }

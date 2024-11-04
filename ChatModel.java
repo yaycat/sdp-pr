@@ -15,9 +15,9 @@ public class ChatModel {
         messages = new ArrayList<>();
         users = new HashMap<>();
         observers = new ArrayList<>();
-        users.put("user1", "password1");
-        users.put("user2", "password2");
-        users.put("user3", "password3");
+        users.put("Nurda", "Olzhik");
+        users.put("Alimzh", "Parol");
+        users.put("Kadyr", "Password123");
     }
 
     public static ChatModel getInstance() {
